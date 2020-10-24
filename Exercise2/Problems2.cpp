@@ -58,7 +58,7 @@ int main()
     cin >> n;
     int mask = 1;
 
-    mask <<= 31;
+    mask <<= 31; //Проверяваме най-левия бит
 
     cout << "Its sign is ";
     n & mask ? cout << "negative.\n" : cout << "positive.\n";
@@ -68,7 +68,7 @@ int main()
     int num;
     cout << "Enter a number: "
     cin >> num;
-    int mask1 = 1;
+    int mask1 = 1; //Проверяваме най-десния бит
 
     cout << "The number you entered is "
     num & mask1 ? cout << "odd." : cout << "even.";
