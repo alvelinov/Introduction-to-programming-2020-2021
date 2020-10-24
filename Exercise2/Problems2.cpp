@@ -58,7 +58,7 @@ int main()
     cin >> n;
     int mask = 1;
 
-    mask <<= 31; //Проверяваме най-левия бит
+    mask <<= 31; //Проверяваме най-левия бит, който помним, че определя знака
 
     cout << "Its sign is ";
     n & mask ? cout << "negative.\n" : cout << "positive.\n";
