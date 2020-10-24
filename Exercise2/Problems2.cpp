@@ -11,7 +11,7 @@ int main()
     Питаме се дали произволна точка с координати х и у попада в начертаната фигура.
     */
     float x, y;
-    float r = 3;
+    float r = 3; //радиусът на частите от окръжността
     bool cond1, cond2, cond3, cond4, inFigure;
 
     cout << "Enter the coordinates of the dot: ";
@@ -33,6 +33,7 @@ int main()
     cond13 = x >= -3 && x <= 3 && y >= -3 && y <= 3 && x*y > 0;
     cond24 = x*x + y*y = r*r && x*y < 0;
 
+    Съответно и условието накрая се променя
     inFigure = cond13 | cond24;
     */
 
