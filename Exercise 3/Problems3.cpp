@@ -17,7 +17,7 @@ int main()
     cout << "Enter the coordinates of point z: ";
     cin >> z1 >> z2;
 
-    if ( (y3 - y2)/(x3 - x2) == (y2 - y1)/(x2 - x1) )
+    if ( (z2 - y2)/(z1 - y1) == (y2 - x2)/(y1 - x1) )
         cout << "Yes." << endl;
     else
         cout << "No." << endl;
