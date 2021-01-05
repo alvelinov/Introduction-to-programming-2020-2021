@@ -40,7 +40,7 @@ int getNewRowsNum(int **matrix, const int &rows, const int &cols){
 
         if(oldCoeff < newCoeff){
             newRowsCount++;
-            oldCoeff = newCoeff; // По време на упражнението редът беше след този if, за която грешка моля да ме извините. Същото важи и за ред 60
+            oldCoeff = newCoeff; // По време на упражнението редът беше след този if, за която грешка моля да ме извините. Същото важи и за ред 84
         }
     }
 
